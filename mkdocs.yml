@@ -44,3 +44,12 @@ markdown_extensions:
 nav:
   - 首页: index.md
   - 关于: about.md
+# 添加这行，包含 admin 目录为静态文件
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/chose2008
+
+# 使用 extra 方式包含 admin 目录
+extra_javascript:
+  - admin/config.yml
