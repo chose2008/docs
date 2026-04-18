@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "skills": {
+    "skill-vetter": {
+      "name": "Skill Vetter",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=skill-vetter",
+      "source": "skillhub",
+      "version": "1.0.0"
+    },
+    "self-improving-agent": {
+      "name": "self-improving-agent",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=self-improving-agent",
+      "source": "skillhub",
+      "version": "1.0.11"
+    },
+    "ssh-essentials": {
+      "name": "Ssh Essentials",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=ssh-essentials",
+      "source": "skillhub",
+      "version": "1.0.0"
+    },
+    "proactive-agent": {
+      "name": "Proactive Agent",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=proactive-agent",
+      "source": "skillhub",
+      "version": "3.1.0"
+    },
+    "summarize": {
+      "name": "Summarize",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=summarize",
+      "source": "skillhub",
+      "version": "1.0.0"
+    },
+    "imap-smtp-email": {
+      "name": "imap-smtp-email",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=imap-smtp-email",
+      "source": "skillhub",
+      "version": "0.0.10"
+    },
+    "memory-setup": {
+      "name": "Memory Setup",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=memory-setup",
+      "source": "skillhub",
+      "version": "1.0.0"
+    }
+  }
+}
