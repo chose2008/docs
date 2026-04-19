@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "updatedAt": "2026-04-19T13:44:16.005Z",
+  "entries": {
+    "memory:memory/2026-04-18.md:1:57": {
+      "key": "memory:memory/2026-04-18.md:1:57",
+      "path": "memory/2026-04-18.md",
+      "startLine": 1,
+      "endLine": 57,
+      "source": "memory",
+      "snippet": "# 2026-04-18 工作记录 ## 项目：chose2008.xyz 知识库网站搭建 ### 已完成 ✅ #### 1. 域名与 DNS 配置 - 域名：`chose2008.xyz` - 域名注册商：阿里云 - DNS 服务商：Cloudflare（已切换 Nameserver） - 状态：已激活，SSL 自动启用 #### 2. GitHub 仓库 - 仓库：`chose2008/docs` - 类型：Public - 内容：MkDocs 文档站点源码 #### 3. 网站技术栈 - 生成器：MkDocs - 主题：Material for MkDocs - 托管：Cloudflare Pages - 访问地址：https://chose2008.xyz #### 4. 文件结构 ``` docs/ ├── docs/ # MkDocs 文档目录 │ ├── index.md # 首页 │ └── about.md # 关于页面 ├── admin/ # Decap CMS 配置（根目录） │ ├── config.yml │ └── index.html ├── mkdocs.yml # MkDocs 配置 ├── requirements.txt # Python 依赖 └── README.md ``` #### 5. Cloudflare Pages 配置 - 构建命令：`m",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.9320442675344996,
+      "maxScore": 0.9320442675344996,
+      "firstRecalledAt": "2026-04-19T13:44:16.005Z",
+      "lastRecalledAt": "2026-04-19T13:44:16.005Z",
+      "queryHashes": [
+        "02b8a2f899d1"
+      ],
+      "recallDays": [
+        "2026-04-19"
+      ],
+      "conceptTags": [
+        "chose2008.xyz",
+        "chose2008/docs",
+        "index.md",
+        "about.md",
+        "config.yml",
+        "index.html",
+        "mkdocs.yml",
+        "requirements.txt"
+      ]
+    }
+  }
+}
