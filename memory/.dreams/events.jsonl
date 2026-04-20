@@ -1,1 +1,2 @@
 {"type":"memory.recall.recorded","timestamp":"2026-04-19T13:44:16.005Z","query":"邮件发送状态 邮件发了没","resultCount":1,"results":[{"path":"memory/2026-04-18.md","startLine":1,"endLine":57,"score":0.9320442675344996}]}
+{"type":"memory.recall.recorded","timestamp":"2026-04-20T08:02:50.989Z","query":"OpenClaw agent 多代理配置 memory 内存","resultCount":2,"results":[{"path":"memory/2026-04-19.md","startLine":1,"endLine":26,"score":1},{"path":"memory/2026-04-18.md","startLine":1,"endLine":57,"score":1}]}

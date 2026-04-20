@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-04-19T13:44:16.005Z",
+  "updatedAt": "2026-04-20T08:02:50.989Z",
   "entries": {
     "memory:memory/2026-04-18.md:1:57": {
       "key": "memory:memory/2026-04-18.md:1:57",
@@ -9,18 +9,20 @@
       "endLine": 57,
       "source": "memory",
       "snippet": "# 2026-04-18 工作记录 ## 项目：chose2008.xyz 知识库网站搭建 ### 已完成 ✅ #### 1. 域名与 DNS 配置 - 域名：`chose2008.xyz` - 域名注册商：阿里云 - DNS 服务商：Cloudflare（已切换 Nameserver） - 状态：已激活，SSL 自动启用 #### 2. GitHub 仓库 - 仓库：`chose2008/docs` - 类型：Public - 内容：MkDocs 文档站点源码 #### 3. 网站技术栈 - 生成器：MkDocs - 主题：Material for MkDocs - 托管：Cloudflare Pages - 访问地址：https://chose2008.xyz #### 4. 文件结构 ``` docs/ ├── docs/ # MkDocs 文档目录 │ ├── index.md # 首页 │ └── about.md # 关于页面 ├── admin/ # Decap CMS 配置（根目录） │ ├── config.yml │ └── index.html ├── mkdocs.yml # MkDocs 配置 ├── requirements.txt # Python 依赖 └── README.md ``` #### 5. Cloudflare Pages 配置 - 构建命令：`m",
-      "recallCount": 1,
+      "recallCount": 2,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 0.9320442675344996,
-      "maxScore": 0.9320442675344996,
+      "totalScore": 1.9320442675344998,
+      "maxScore": 1,
       "firstRecalledAt": "2026-04-19T13:44:16.005Z",
-      "lastRecalledAt": "2026-04-19T13:44:16.005Z",
+      "lastRecalledAt": "2026-04-20T08:02:50.989Z",
       "queryHashes": [
-        "02b8a2f899d1"
+        "02b8a2f899d1",
+        "6f13f1eec42e"
       ],
       "recallDays": [
-        "2026-04-19"
+        "2026-04-19",
+        "2026-04-20"
       ],
       "conceptTags": [
         "chose2008.xyz",
@@ -31,6 +33,37 @@
         "index.html",
         "mkdocs.yml",
         "requirements.txt"
+      ]
+    },
+    "memory:memory/2026-04-19.md:1:26": {
+      "key": "memory:memory/2026-04-19.md:1:26",
+      "path": "memory/2026-04-19.md",
+      "startLine": 1,
+      "endLine": 26,
+      "source": "memory",
+      "snippet": "# 2026-04-19 工作记录 ## 系统配置与修复 ### 1. Gateway 配对权限修复 ✅ **问题：** Cron 工具报错 `gateway closed (1008): pairing required` **根因：** 设备权限只有 `operator.read`，但 Cron 需要 `operator.admin` **解决：** - 修改 `/root/.openclaw/devices/paired.json` - 将 `scopes` 和 `approvedScopes` 从 `operator.read` 升级到 `operator.admin` - 重启 Gateway 服务使更改生效 ### 2. 记忆备份系统配置 ✅ - 频率：每2小时自动同步 - 方式：系统 cron (已调整为 `0 */2 * * *`) - 脚本：`/root/.openclaw/backup-memory.sh` - 目标：GitHub 仓库 `chose2008/docs` ### 3. 模型切换 ✅ - 从默认模型切换到 `kimi/k2p5` (Kimi 2.5) - 验证：代码生成、逻辑推理、执行测试通过 ## 待办事项 - [ ] 验证 Cron 工具是否正常工作（权限修复后） - [ ] 继续完善 chose2008.xyz 知识库网站",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-04-20T08:02:50.989Z",
+      "lastRecalledAt": "2026-04-20T08:02:50.989Z",
+      "queryHashes": [
+        "6f13f1eec42e"
+      ],
+      "recallDays": [
+        "2026-04-20"
+      ],
+      "conceptTags": [
+        "backup",
+        "gateway",
+        "备份",
+        "operator.read",
+        "operator.admin",
+        "openclaw/devices/paired.json",
+        "openclaw/backup-memory.sh",
+        "chose2008/docs"
       ]
     }
   }
